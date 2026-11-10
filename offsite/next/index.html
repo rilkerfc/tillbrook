@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Next step</title></head>
+<body>
+  <h1>Next step</h1>
+  <button type="button" id="finish">Finish</button>
+  <p id="status" aria-live="polite"></p>
+  <script>document.getElementById('finish').addEventListener('click', function () { document.getElementById('status').textContent = 'Finished'; });</script>
+</body>
+</html>
